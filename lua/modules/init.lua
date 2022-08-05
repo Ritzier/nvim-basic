@@ -125,6 +125,9 @@ return packer.startup(function(use)
 	})
 	use({ "Vimjas/vim-python-pep8-indent" })
 
+    -- Wilder
+    use({ "gelguy/wilder.nvim" })
+
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
 	if PACKER_BOOTSTRAP then
